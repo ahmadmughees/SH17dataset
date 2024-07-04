@@ -7,7 +7,7 @@
 ---
 ## 📢 Latest Updates
 - **2024-07-04**: The data is now available at [kaggle](https://www.kaggle.com/datasets/mugheesahmad/sh17-dataset-for-ppe-detection).
-- **2024-07-04**: Paper is now available at [ArXiv](link here).
+- ~~Paper is now available at [ArXiv](link here).~~
 ---
 
 ## **Table of Contents**
