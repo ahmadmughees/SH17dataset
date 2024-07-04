@@ -85,6 +85,7 @@ We have used [ultralytics==8.0.38](https://github.com/ultralytics/ultralytics) r
 
 you can install ultralytics using `pip install ultralytics=8.0.38` 
 and weights can be downloaded by clicking model in the table below or from the [releases section](https://github.com/ahmadmughees/SH17dataset/releases). 
+
 ---
 
 ### YOLO v8, v9, v10 Results
