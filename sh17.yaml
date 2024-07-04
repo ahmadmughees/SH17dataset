@@ -1,0 +1,24 @@
+path: /path/to/root/dir  # dataset root dir
+train: /path/to/train_files.txt  # train images (relative to 'path') 128 images
+val: /path/to/val_files.txt  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0:  person
+  1:  ear
+  2:  ear-mufs
+  3:  face
+  4:  face-guard
+  5:  face-mask
+  6:  foot
+  7:  tool
+  8:  glasses
+  9:  gloves
+  10: helmet
+  11: hands
+  12: head
+  13: medical-suit
+  14: shoes
+  15: safety-suit
+  16: safety-vest
