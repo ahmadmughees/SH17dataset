@@ -1,13 +1,13 @@
 # **SH17: A Dataset for Human Safety and Personal Protective Equipment Detection in Manufacturing Industry**
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](Link here)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2407.04590)
 [![Weights](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/datasets/mugheesahmad/sh17-dataset-for-ppe-detection)
 
 <img src="extras/readme/samples.gif" alt="Demo" width="840" align="middle"/>
 
 ---
 ## 📢 Latest Updates
+- **2024-07-05**: Paper is now available at [ArXiv](https://arxiv.org/abs/2407.04590).
 - **2024-07-04**: The data is now available at [kaggle](https://www.kaggle.com/datasets/mugheesahmad/sh17-dataset-for-ppe-detection).
-- ~~Paper is now available at [ArXiv](link here).~~
 ---
 
 ## **Table of Contents**
