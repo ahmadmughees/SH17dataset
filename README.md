@@ -6,6 +6,7 @@
 
 ---
 ## 📢 Latest Updates
+- **2024-07-19**" Tutorial on training a YOLOv8n model is available [here](https://www.kaggle.com/code/mugheesahmad/tutorial-to-train-a-yolov8n-model)
 - **2024-07-05**: Paper is now available at [ArXiv](https://arxiv.org/abs/2407.04590).
 - **2024-07-04**: The data is now available at [kaggle](https://www.kaggle.com/datasets/mugheesahmad/sh17-dataset-for-ppe-detection).
 ---
@@ -147,6 +148,11 @@ from ultralytics import YOLO
 model = YOLO(r"\path\to\weight.pt")
 model.val(data="sh17.yaml", batch = 1, imgsz = 640, device="cuda:0")
 ```
+
+
+## Kaggle
+
+Tutorial on training a YOLOv8n model is available [here](https://www.kaggle.com/code/mugheesahmad/tutorial-to-train-a-yolov8n-model). 
 
 ---
 
