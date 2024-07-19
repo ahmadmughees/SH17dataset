@@ -111,6 +111,19 @@ and weights can be downloaded by clicking model in the table below or from the [
 
 ---
 
+## Update train_files.txt and test_files.txt
+
+The `train_files.txt` and `test_files.txt` with the dataset contains only list of images while in the YOLO format it needs full image path, so append the full path within each file. You can use [update_train_test_files.py](data/update_train_test_files.py) script to achieve that. 
+After that your files should have the structure as below,
+```
+\full\path\to\images\pexels-photo-11739107.jpeg
+\full\path\to\images\pexels-photo-6766248.jpeg
+\full\path\to\images\pexels-photo-7674606.jpeg
+\full\path\to\images\pexels-photo-7222236.jpeg
+\full\path\to\images\pexels-photo-8837596.jpeg
+...
+```
+
 ## Usage
 ```python
 from ultralytics import YOLO
