@@ -1,11 +1,13 @@
 # **SH17: A Dataset for Human Safety and Personal Protective Equipment Detection in Manufacturing Industry**
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2407.04590)
+[![paper](https://img.shields.io/badge/Accepted_Paper-JSSR-blue)](https://doi.org/10.1016/j.jnlssr.2024.09.002)
 [![Weights](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/datasets/mugheesahmad/sh17-dataset-for-ppe-detection)
 
 <img src="extras/readme/samples.gif" alt="Demo" width="840" align="middle"/>
 
 ---
 ## 📢 Latest Updates
+- **2024-11-28**" Official Paper has been accepted and published by Journal of Safety Science and Resilience [and is available here.](http://dx.doi.org/10.1016/j.jnlssr.2024.09.002)
 - **2024-07-19**" Tutorial on training a YOLOv8n model is available [here](https://www.kaggle.com/code/mugheesahmad/tutorial-to-train-a-yolov8n-model)
 - **2024-07-05**: Paper is now available at [ArXiv](https://arxiv.org/abs/2407.04590).
 - **2024-07-04**: The data is now available at [kaggle](https://www.kaggle.com/datasets/mugheesahmad/sh17-dataset-for-ppe-detection).
@@ -152,7 +154,7 @@ model.val(data="sh17.yaml", batch = 1, imgsz = 640, device="cuda:0")
 
 ## Kaggle
 
-Tutorial on training a YOLOv8n model is available [here](https://www.kaggle.com/code/mugheesahmad/tutorial-to-train-a-yolov8n-model). 
+Tutorial on training a YOLOv8n model on SH17 dataset is available [here](https://www.kaggle.com/code/mugheesahmad/tutorial-to-train-a-yolov8n-model). 
 
 ---
 
@@ -161,14 +163,16 @@ Tutorial on training a YOLOv8n model is available [here](https://www.kaggle.com/
 If you use this dataset or code in your research, please cite our paper:
 
 ```latex
-@article{ahmad_2024_sh17,
-  title={SH17: A Dataset for Human Safety and Personal Protective Equipment Detection in Manufacturing Industry},
-  author={Ahmad, Hafiz Mughees and Rahimi, Afshin},
-  journal={Arxiv},
-  year={2024}
+@article{AHMAD2024,
+    title = {SH17: A dataset for human safety and personal protective equipment detection in manufacturing industry},
+    journal = {Journal of Safety Science and Resilience},
+    year = {2024},
+    issn = {2666-4496},
+    doi = {https://doi.org/10.1016/j.jnlssr.2024.09.002},
+    url = {https://www.sciencedirect.com/science/article/pii/S266644962400077X},
+    author = {Hafiz Mughees Ahmad and Afshin Rahimi},
 }
 ```
-
 ## License
 
 The SH17 dataset is released under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
