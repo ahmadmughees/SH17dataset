@@ -31,10 +31,11 @@ Workplace accidents continue to pose significant risks for human safety, particu
 
 The images and annotated labels can be found in [Kaggle](https://www.kaggle.com/datasets/mugheesahmad/sh17-dataset-for-ppe-detection).
 
-All images can be downloaded via list of URLs from the source using [download_from_pexels.py](data/download_from_pexels.py) script. 
-```
-cd data
-python download_from_pexels.py
+First, make sure you have install `uv`. You can follow the [installation guide](https://docs.astral.sh/uv/getting-started/installation/) for more details.
+
+All images can be downloaded via list of URLs in `data/source.txt`.
+```sh
+uv run download.py
 ```
 ---
 
