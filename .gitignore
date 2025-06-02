@@ -1,0 +1,5 @@
+# Dataset files
+data/
+
+# Environment
+.venv/
